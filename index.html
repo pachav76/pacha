@@ -1,122 +1,96 @@
 <html>
-    <head>
-        <title>Вакансия: Junior Frontend Developer</title>
-        <style type="text/css">
-        h1{
-            font-size: 34;
-            color: black;
-        }
-        </style>
-        <style type="text/css";>
-        h1,p,input,select,th,td,li{
-            font-family:Comic Sans MS; 
-        }
-        p{
-            font-size: 14;
-            color: black
-        }
-        </style>
-        <style type="text/css">
-        table{
-            width: 300px;
-        }
-        th{
-            background:white;
-            color: black;
-        }
-        td, th{
-            padding: 3px
-        }
-        </style>
-        <style type="text/css">
-        li{
-            style:li-style square"
-        }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Вакансия: Junior Frontend Developer</h1>
-        </header>
-        <div>
-            <div style="display: inline-block">
-                <img src="./photo.jpg">
-            </div>
-            <div style="display: inline-block; vertical-align:top">
-            <p>
-            Ваше имя: 
-            <input type="text" name="name" placeholder="Введите имя">
-            </p>
-            <a href="https://github.com/pachav76/juniorfrontend.git">
-            Ссылка на репозиторий в Github
-            </a>
-            <p>Опыт работы:
-            <select>
-                <option>нет</option>
-                <option>1 год</option>
-                <option>2 года</option>
-            </select>
-            </p>
-            </div>
-        </div>
-        <div>
-            <p>
-                Дата собеседования
-                <input type="date">
-            </p>
-        </div>
-        <div>
-            <p>Уровень английского языка:<br>
-                <input type="radio" name="level" value="Beginners" checked> Базовый<br>
-                <input type="radio" name="level" value="Elementary"> Средний<br>
-                <input type="radio" name="level" value="Intermediate"> Уверенный
-            </p>
-        </div>
-        <div>
-            <p>Ключевые навыки:</p>
-            <ul>
-                <li>Умение работать в команде</li>
-                <li>Целеустремленность</li>
-                <li>Стрессоустойчивость</li>
-                <li>Чувство юмора</li>
-            </ul>
-            <input type="text" placeholder="Введите навык...">
-            <input type="submit" value="Добавить в список">
-        </div>
-        <div>
-            <p>Каммуникабельность:
-                <select>
-                    <option value="no"> </option>
-                    <option value="communicable"> Каммуникабелен</option>
-                    <option value="uncommunicable"> Не Каммуникабелен</option>
-                </select>
-            </p>
-        </div>
-        <div>
-            <p>Желаемая з/п:
-                <input type="text" placeholder="Введите значение">
-            </p>
-        </div>
-        <div>
-            <p>Подходит по критериям: <br>
-            <input type="checkbox">Знание английского
-            <input type="checkbox">Оклад
-            <input type="checkbox">Навыки
-            <input type="checkbox">Сразу видно, свой человек
-            </p>
-        </div>
-        <p>Образование, курсы и т.п.</p>
-        <table cellspacing="0" border="2">
-            <tr>
-                <th>#</th>
-                <th>Сроки обучения</th>
-                <th>Наименование учебного заведения,курсов</th>
-            </tr>
-            <tr>
-                <td>1</td><td>2 года</td><td>СГПТУ №23</td>
-            <tr>
-                <td>2</td><td>1 год</td><td>Курсы кройки и шитья</td>
-            </tr>
-        </table>
-    </body>
+
+<head>
+  <title>Вакансия: Junior Frontend Developer</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Вакансия: Junior Frontend Developer</h1>
+  </header>
+  <div style="display: inline-block">
+    <img src="./photo.jpg">
+  </div>
+  <div style="display: inline-block; vertical-align:top">
+    <p>
+      Ваше имя:
+      <input type="text" name="name" placeholder="Введите имя">
+    </p>
+    <a href="https://github.com/pachav76/juniorfrontend.git">
+                Ссылка на репозиторий в Github
+                </a>
+    <p>Опыт работы:</p>
+    <select>
+        <option>нет</option>
+        <option>1 год</option>
+        <option>2 года</option>
+    </select>
+  </div>
+  </div>
+  <div>
+    <p>
+      Дата собеседования
+      <input type="date">
+    </p>
+  </div>
+  <div>
+    <p>Уровень английского языка:<br>
+      <input type="radio" name="level" value="Beginners" checked> Базовый<br>
+      <input type="radio" name="level" value="Elementary"> Средний<br>
+      <input type="radio" name="level" value="Intermediate"> Уверенный
+    </p>
+  </div>
+  <div>
+    <p>Ключевые навыки:</p>
+    <ul>
+      <li>Умение работать в команде</li>
+      <li>Целеустремленность</li>
+      <li>Стрессоустойчивость</li>
+      <li>Чувство юмора</li>
+    </ul>
+    <input type="text" placeholder="Введите навык...">
+    <input type="submit" value="Добавить в список">
+  </div>
+  <div>
+    <p>Коммуникабельность:</p>
+    <select >
+        <option value="no" selected>-</option>
+        <option value="communicable">Каммуникабелен</option>
+        <option value="uncommunicable">Не Каммуникабелен</option>
+    </select>
+  </div>
+  <div>
+    <p>Желаемая з/п:
+      <input type="text" placeholder="Введите значение">
+    </p>
+  </div>
+  <div>
+    <p>Подходит по критериям: <br>
+      <input type="checkbox">Знание английского
+      <input type="checkbox">Оклад
+      <input type="checkbox">Навыки
+      <input type="checkbox">Сразу видно, свой человек
+    </p>
+  </div>
+  <p>Образование, курсы и т.п.</p>
+  <table cellspacing="0" border="2">
+    <tr>
+      <th>#</th>
+      <th>Сроки обучения</th>
+      <th>Наименование учебного заведения,курсов</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2 года</td>
+      <td>СГПТУ №23</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1 год</td>
+      <td>Курсы кройки и шитья</td>
+    </tr>
+  </table>
+</body>
+
 </html>
