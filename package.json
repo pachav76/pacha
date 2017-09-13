@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pachav76/juniorfrontend/issues"
   },
-  "homepage": "https://github.com/pachav76/juniorfrontend#readme"
+  "homepage": "https://github.com/pachav76/juniorfrontend#readme",
+  "devDependencies": {
+    "serve": "^6.0.6"
+  }
 }
