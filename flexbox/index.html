@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Flexbox на практике</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				background: #fefefe;
+				margin: 0;
+				padding: 0;
+				font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+				color: #272727;
+			}
+			img{
+				margin: 0;
+				padding: 0;
+				vertical-align: middle;
+				border: none;
+			}
+			.main{
+				margin: 20px;
+				border: 1px solid #ccc;
+				padding: 20px;
+				background: #fff;
+				border-radius: 3px;
+			}
+			.bl{
+				padding: 5px 10px;
+				border:1px solid #ddd;
+				background: #fffde1;
+				border-radius: 3px;
+				margin: 20px;
+			}
+			.main {
+				display: flex;
+				height: 500px;
+				flex-direction: row;
+				justify-content: center;
+				align-items: baseline;
+			}
+			.bl{
+
+			}
+
+			.fl1 {
+			font-size: 8px;
+			}
+
+			.fl2 {
+			font-size: 16px;
+			}
+
+			.fl3 {
+			font-size: 24px;
+			}
+
+			.fl4 {
+			font-size: 12px;
+			}
+
+			.fl5 {
+			font-size: 10px;
+			}
+
+			.fl6 {
+			font-size: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="main">
+			<div class="bl fl1">1</div>
+			<div class="bl fl2">2</div>
+			<div class="bl fl3">3</div>
+			<div class="bl fl4">4</div>
+			<div class="bl fl5">5</div>
+			<div class="bl fl6">6</div>
+		</div>
+
+	</body>
+</html>

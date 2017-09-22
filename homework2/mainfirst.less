@@ -1,0 +1,152 @@
+@main-width: ~"calc(1006px - 20px)";
+
+@secndary-color: #ffeb00;
+
+body {
+  margin: 0px;
+}
+
+.back {
+  width: 1006px;
+  position: absolute;
+  left: 50%;;
+  margin-left: -503px;
+  opacity: 0;
+  top: 0;
+}
+
+.main-container {
+  width: @main-width;
+  margin: 9px auto;
+}
+
+.navbar {
+  width: ~"calc(100% - 132px)";
+  height: 96px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 66px;
+  align-items: center;
+  position: relative;
+  background-color: f6f6f6;
+
+  .navbarlink {
+    text-transform: uppercase;
+    font-size: 11px;
+    position: relative;
+    top: 2px;
+    margin-left: 29px;
+    height: 40px;
+    padding: 0 9px;
+    line-height: 40px;
+    cursor: pointer;
+
+    &.hover {
+      background-color: lightgrey;
+    }
+
+    &.active {
+      background-color: @secndary-color;
+    }
+
+  }
+
+  .logo {
+    width: 70px;
+    height: 71px;
+    position: absolute;
+    left: 71px;
+
+    .img {
+      width: 100%;
+      height: 100%;
+      background-color: lightgrey;
+    }
+  }
+}
+
+.page-title-section {
+  height: 92px;
+  width: @main-width;
+  background-color: ;
+  position: relative;
+
+  .page-title {
+    width: 183px;
+    height: 43px;
+    position: absolute;
+    left: 70px;
+    top: 26px;
+    line-height: 40px;
+    font-size: 22px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    background-color: 403f44;
+    color: @secndary-color;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  line-height: 0px;
+  padding: 0 0 10 0px;
+
+}
+
+.container {
+  width: @main-width;
+  margin: 9px auto;
+}
+
+.tab {
+  width: ~"calc(100% - 132px)";
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 66px;
+  align-items: center;
+
+  .tablink {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+    height: 20px;
+    padding: 0 4px;
+    line-height: 20px;
+
+    &.active {
+      background-color: @secndary-color;
+    }
+  }
+}
+
+.content {
+  width: calc(1006 - 4px);
+  height: 707px;
+  margin: 29px auto;
+}
+
+.row {
+  flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	display: flex;
+
+  .colcont {
+    width: 322px;
+    height: 212px;
+    padding: 0 0 36 0px;
+  }
+
+}
+.button {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 180px;
+  top: 200px;
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 1rem;
+}
+
+div>div {
+  margin: 5px;
+}
+
+input.radio-btn {
+  padding: 10px;
+}
+
+input[type="number"] {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 34;
+  color: black;
+}
+
+h1, p, input, select, th, td, li {
+  font-family: Comic Sans MS;
+}
+
+p {
+  font-size: 14;
+  color: black
+}
+
+table {
+  width: 300px;
+}
+
+th {
+  background: white;
+  color: black;
+}
+
+td, th {
+  padding: 3px
+}
+
+li {
+  style: "li-style square"
+}

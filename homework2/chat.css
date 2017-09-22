@@ -1,0 +1,39 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 800px;
+  height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.avatar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  flex: 1;
+  margin-right: 120px;
+}
+.sender{
+  width: 300 px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+}
+.header {
+  width: 800px;
+  height: 58px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.header p, .header h1 {
+  margin: 0;
+}
