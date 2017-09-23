@@ -2,6 +2,7 @@
 
 <head>
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="mainfirst.css">
 </head>
 
@@ -9,11 +10,23 @@
   <img class="back" src="back.jpg">
   <section class="main-container">
     <nav class="navbar">
-      <div class="navbarlink">Home</div>
-      <div class="navbarlink active">Portfolio</div>
-      <div class="navbarlink">Blog</div>
-      <div class="navbarlink">About us</div>
-      <div class="navbarlink">Contact</div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img class="back" src="back.jpg">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">Blog</a>
+            <a class="nav-item nav-link disabled" href="#">About us</a>
+            <a class="nav-item nav-link disabled" href="#">Contacts</a>
+          </div>
+        </div>
+      </nav>
       <div class="logo">
         <img src="logo.png">
       </div>
@@ -23,55 +36,43 @@
       <img src="page.png" alt="">
       <div class="page-title">Portfolio</div>
     </section>
+    <section class="info-and-filter-section">
+      <div class="about-us">
+        <div class="first-line">WE CREATE QUALITY DESIGNS</div>
+        <div class="second-line">We specialize in Web Design / Development and Graphic Design</div>
+      </div>
+      <div class="filters">
+        <div class="filters-item active">All</div>
+        <div class="filters-item">Websuit</div>
+        <div class="filters-item">Logo</div>
+        <div class="filters-item">Ul kit</div>
+        <div class="filters-item">Photo</div>
+        <div class="filters-item">App Designe</div>
+      </div>
+    </section>
+    <section class="product-gallery">
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+      <div class="product-item"></div>
+    </section>
   </section>
-  <div class="text">
-    <h1>WE CREATE QUALITY DESIGNS</h1>
-    <p>We specialize in Web Design / Development and Graphic Design</p>
-  </div>
-  <section class="container">
-    <nav class="tab">
-      <div class="tablink active">All</div>
-      <div class="tablink">Websuit</div>
-      <div class="tablink">Logo</div>
-      <div class="tablink">Ul kit</div>
-      <div class="tablink">Photo</div>
-      <div class="tablink">App Designe</div>
-    </nav>
-  </section>
-  <nav class="content">
-    <div class="button">
-
-    </div>
-    <div class="row">
-      <div class="colcont">
-        <img src="cont1.png">
-      </div>
-      <div class="colcont">
-        <img src="cont2.png">
-      </div>
-      <div class="colcont">
-        <img src="cont3.png">
-      </div>
-      <div class="colcont">
-        <img src="cont4.png">
-      </div>
-      <div class="colcont">
-        <img src="cont5.png">
-      </div>
-      <div class="colcont">
-        <img src="cont6.png">
-      </div>
-      <div class="colcont">
-        <img src="cont7.png">
-      </div>
-      <div class="colcont">
-        <img src="cont8.png">
-      </div>
-      <div class="colcont">
-        <img src="cont9.png">
-      </div>
-    </div>
-  </nav>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+
+
+<div class="navbarlink"><a class="link-url" href="http://www.google.com"></a>Home</div>
+<div class="navbarlink active">Portfolio</div>
+<div class="navbarlink">Blog</div>
+<div class="navbarlink">About us</div>
+<div class="navbarlink">Contact</div>
