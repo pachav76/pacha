@@ -16,36 +16,55 @@ body {
   position: absolute;
   margin-left: -650px;
   left: 50%;
-  opacity: 0;
+  opacity: 0.4;
   top: 4px;
 }
 .logo {
-  position: absolute;
-  top: ;
+  position: relative;
+  left: 5%;
 }
 .main-container {
-  width: 1300px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
 .navbar {
-  width: 1300px;
-  height: 110px;
-  padding: 0 50px;
+  max-width: 1300px;
+  padding: 0 80px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  z-index: 1;
 }
 .navbar .navbar-collapse {
   justify-content: flex-end;
+  padding: 0 42px;
+  background-color: white;
 }
 .navbar .navbar-nav {
   align-items: flex-end;
+  margin-top: 30px;
+  background-color: white;
 }
 .navbar .navbar-link {
   font-size: 20px;
-  position: top: 2px;
-  margin-left: 40px;
-  padding: 0 20px;
+  position: relative;
+  top: 2px;
+  margin-left: 81px;
+  padding: 4 20px;
+  line-height: 40px;
+}
+.navbar .navbar-toggler {
+  margin: 0px;
+  margin-top: 36px;
+}
+.navbar .logo {
+  width: 209px;
+  height: 76px;
+  position: absolute;
+  left: 140px;
+  top: 19px;
+  line-height: 40px;
+  font-size: 22px;
 }

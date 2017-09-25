@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: content-box;
-  }
+}
 .back {
   width: 1006px;
   position: absolute;
@@ -12,8 +12,8 @@ body {
   z-index: -1;
 }
 .main-container {
-  width: calc(1006px - 20px);
-  max-width: 550px;
+  max-width: calc(1006px - 20px);
+  min-width: 550px;
   margin: 9px auto;
 }
 .link-url {
@@ -24,7 +24,7 @@ body {
   max-width: calc(100% - 132px);
   min-height: 96px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 0 66px;
   align-items: center;
   position: relative;
@@ -33,7 +33,7 @@ body {
 .navbar .navbar-collapse {
   justify-content: flex-end;
 }
-navbar .navbar-nav {
+.navbar .navbar-nav {
   align-items: flex-end;
 }
 .navbar .navbar-link {
@@ -47,8 +47,8 @@ navbar .navbar-nav {
   line-height: 40px;
   cursor: pointer;
 }
-.navbar .navbar-link:hover {
-  background-color: lightgray;
+.navbar .navbar-link.hover {
+  background-color: lightgrey;
 }
 .navbar .navbar-link.active {
   background-color: #ffeb00;
@@ -101,15 +101,15 @@ navbar .navbar-nav {
   padding-top: 35px;
   padding-left: 72px;
 }
-.filters .filter-item {
+.filters .filters-item {
   padding: 2px 11px;
   margin-right: 6px;
   cursor: pointer;
 }
-.filters .filter-item:hover {
-  background-color: lightgray;
+.filters .filters-item.hover {
+  background-color: lightgrey;
 }
-.filters .filter-item.active {
+.filters .filters-item.active {
   background-color: #ffeb00;
 }
 .product-gallery {
