@@ -25,7 +25,7 @@ body {
 }
 
 .link-url {
-  @primary-color: #666666;
+  color: @primary-color;
   text-decoration: none;
 }
 
@@ -76,17 +76,16 @@ body {
     margin-left: 5px;
     background-color: lightgrey;
 
-    .img {
+    img {
       width: 100%;
       height: 100%;
-      
     }
   }
 }
 
 .page-title-section {
   height: 92px;
-  width: @main-width;
+  max-width: @main-width;
   background-color: #f0f0f0;
   position: relative;
 
