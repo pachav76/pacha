@@ -122,6 +122,12 @@ body {
   height: auto;
   margin-bottom: 36px;
 }
+.product-gallery .product-item.hover {
+  background-color: #FFCCCC;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
 .product-gallery .product-item img {
   max-width: 100%;
   max-height: 100%;
@@ -130,4 +136,20 @@ body {
   .product-gallery .product-item {
     max-width: 48%;
   }
+}
+.buttom {
+  position: absolute;
+  opacity: 0;
+  right: 319px;
+  top: 632px;
+  width: 322px;
+  height: 212px;
+  transition: width 2s, height 2s, background-color 2s, transform 0.5s;
+}
+.buttom:hover {
+  background-color: darkgrey;
+  width: 322px;
+  height: 212px;
+  opacity: 0.5;
+  transform: rotate(180deg);
 }
