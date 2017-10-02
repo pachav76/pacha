@@ -96,7 +96,7 @@ body {
       font-size: 22px;
       padding-left: 10px;
       text-transform: uppercase;
-      background-color: darkgrey;
+      background-color: #443F3F;
       color: @secndary-color;
     }
 }
@@ -148,6 +148,7 @@ body {
         max-width: 33%;
         height: auto;
         margin-bottom: 36px;
+        position: relative;
 
         &.hover {
             background-color: #FFCCCC;
@@ -170,15 +171,13 @@ body {
 .buttom {
     position: absolute;
     opacity: 0;
-    right: 319px;
-    top: 632px;
-    width: 322px;
-    height: 212px;
-
-    
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
-.buttom:hover {
+.product-item:hover.buttom {
      background-color: darkgrey;
      width: 90px;
      height: 90px;
@@ -188,7 +187,7 @@ body {
 .grid-container {
     max-width: @main-width;
     min-width: 550px;
-    height: 520px;
+    height: 369px;
     background-color: #443F3F;
     margin-left: auto;
     margin-right: auto;
@@ -217,12 +216,12 @@ body {
 }
 
 .about-us {
-    max-width: 33%;
+    max-width: 100%;
     display: block;
     box-sizing: border-box;
     padding-top: 0px;
     list-style-type: none;
-    text-align: left;
+    text-align: center;
 }
 
 .contact-info {
@@ -262,6 +261,84 @@ body {
         color: white;
       
     }
+}
+
+.photo-stream{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .photo-stream-gallery {
+        width: 83%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+
+    .photo-stream-item {
+        max-width: 33%;
+        height: auto;
+        padding:2px; 
+    }
+}
+
+.footer-about-us {
+    width: 33%;
+}
+
+
+
+
+.low-navbar {
+max-width: ~"calc(100% - 132px)";
+min-height: 56px;
+justify-content: flex-end;
+display: flex;
+
+padding: 0 66px;
+align-items: flex-start;
+position: relative;
+background-color: black;
+z-index: 1;
+
+    .low-navbar-collapse {
+        justify-content: flex-start;
+        text-decoration: none;
+    }
+
+    .low-navbar-nav {
+        align-items: flex-end;
+        }
+
+        .low-navbar-link {
+        text-transform: uppercase;
+        font-size: 11px;
+        position: relative;
+        top: 3px;
+        margin-left: 36px;
+        height: 42px;
+        padding: 0 9px;
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+
+        &.hover {
+            background-color: white;
+        }
+    }
+} 
+
+.copyright {
+    font-size: 10px;
+    width: 40%;
+    height: 39px;
+    margin-left: 5px;
+    padding-top: 20px;
+    color: white;
 }
 
 li {
