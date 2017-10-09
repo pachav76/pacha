@@ -220,7 +220,6 @@ body {
 }
 .contact-info {
   max-width: 32%;
-  box-sizing: border-box;
 }
 @media (max-width: 900px) {
   .contact-info {
@@ -259,8 +258,28 @@ body {
 .social-connecting img {
   padding-left: 0px;
 }
-.button-send {
-  padding-left: 30px;
+.subscribe_form {
+  margin-left: 30px;
+}
+.subscribe_form .subscribe_text__input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid yellow;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px 8px;
+  line-height: 20px;
+  outline: none;
+}
+.subscribe_form .subscribe_button {
+  background-image: url(send.png);
+  background-position: 50% 50%;
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  border: 0;
+  outline: none;
+  margin-left: -5px;
 }
 .page-footer-section {
   width: 100px;
@@ -373,6 +392,7 @@ ul {
   }
 }
 #carousel {
+  width: 1006px;
   position: relative;
   display: block;
   min-height: 400px;
