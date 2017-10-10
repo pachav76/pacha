@@ -217,12 +217,12 @@ body {
 
   @media (max-width: 900px) {
     max-width: 650px;
-    padding-bottom: 20px;
+  
   }
 
   @media (max-width: 600px) {
     max-width: 350px;
-    padding-bottom: 20px;
+  
   }
 }
 
@@ -272,7 +272,7 @@ body {
 }
 
 .social-connecting {
-  margin-left: 30px;
+  margin-left: 38px;
   color: white;
   font-size: 11px;
   text-transform: uppercase;
@@ -457,18 +457,58 @@ ul {
   min-height: 400px;
 }
 
-.yellow-colored {
-  color: yellow;
-
+.tweet_list__header {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+  padding: 0 0 0 30px;
+  text-transform: uppercase;
+  color: white;
 }
-.yellow-colored-small {
-  color: yellow;
-  font-size: 8px;
+
+.tweet_list ul {
+  list-style: none;
+  margin: o;
+  padding: 0;
 }
 
-a.global-footer__text-link:active, 
-a.global-footer__text-link:hover,  
-a.global-footer__text-link {
+.tweet_list ul li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.tweet_list ul li .avatar {
+ 
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.tweet_list ul li .avatar img {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+
+.tweet_list ul li .text {
+  flex: 1 1 auto;
+}
+
+.tweet_list ul li .text p {
+  margin: 2px 0;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+a:active, 
+a:hover,  
+a {
   text-decoration: none;
   color: white;
 }
