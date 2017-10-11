@@ -39,7 +39,7 @@ function fillCarousel(data) {
     for (i = 0; i < data.length; i++) {
         console.debug(data[i]);
         const child = `
-            <div class="carousel-item'>
+            <div class="carousel-item ${(i == 0 ? 'active' : '')}">
                 <img class="d-block w-100" src="${data[i].url}" alt="${data[i].title}">
             </div>
         `;
